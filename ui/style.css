@@ -1,0 +1,318 @@
+:root {
+    --mainfont: "Montserrat";
+    --addfont: "Work Sans";
+    --darkwhite: #ececece0;
+    --white: #f3f4f8;
+    --bgcolor: #121827e7;
+    --bgcolor3: #1e263f;
+    --bgsecond: #283d50b7;
+    --goodone: #0d141ab7;
+    --goodone2: #0b1218b7;
+    --goodsecond: #1a2c3bb7;
+    --negative: #ff4949c0;
+    --positive: #13ce66c0;
+    --negative2: #8a1515;
+    --positive2: #0a7e3e;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    border: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    font: 400 1rem/1.75rem "Open Sans", sans-serif;
+}
+
+#request {
+    width: 100vw;
+    height: 100vh;
+}
+
+#req {
+    background-color: var(--bgcolor);
+    border-radius: 1px;
+    padding: 45px;
+    width: 25vw;
+    box-shadow:
+    -80px -80px 0 -70px var(--bgcolor3),
+     80px -80px 0 -70px var(--bgcolor3),
+    -80px  80px 0 -70px var(--bgcolor3),
+     80px  80px 0 -70px var(--bgcolor3);
+     margin: 0;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+
+#request-header-topic {
+    font-family: var(--mainfont);
+    color: var(--white);
+    line-height: 0.95;
+}
+
+#request-header-description {
+    font-family: var(--addfont);
+    color: var(--darkwhite);
+    line-height: 0.95;
+}
+
+#request-btns {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    gap: 8px;
+}
+
+.btn {
+    width: 50%;
+    text-align: center;
+    font-family: var(--addfont);
+    padding: 10px;
+    background-color: var(--goodone2);
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    opacity: 0.92;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+.btn i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.yes {
+    background-color: var(--positive);
+    clip-path: polygon(72% 0, 85% 0, 100% 100%, 100% 100%, 0 100%, 0% 60%, 0 0);
+}
+
+.no {
+    background-color: var(--negative);
+    clip-path: polygon(72% 0, 100% 0, 100% 100%, 100% 100%, 14% 100%, 15% 100%, 0 0);
+    margin-left: -40px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: var(--positive2);
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards
+}
+
+.checkmark {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px var(--positive);
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes scale {
+
+    0%,
+    100% {
+        transform: none
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1)
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px var(--positive)
+    }
+}
+
+.checkmark2 {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  box-shadow: inset 0px 0px 0px var(--negative);
+  animation: fill2 .4s ease-in-out .4s forwards, scale2 .3s ease-in-out .9s both;
+}
+
+.checkmark_circle2 {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: var(--negative);
+  fill: none;
+  animation: stroke2 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark_check2 {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke2 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke2 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale2 {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill2 {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px var(--negative);
+  }
+}
+
+#end-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999999999999999999999;
+}
+
+#blur {
+    width: 100%;
+    height: 101%;
+    background-color: var(--bgcolor);
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 99999999999999999999;
+}

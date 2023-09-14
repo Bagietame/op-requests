@@ -1,4 +1,15 @@
+
 <h1 align="center"><img src="https://i.imgur.com/59swfgh.png" width="48px" height="auto"> OP-REQUESTS - Fivem Requests system</h1>
+
+###### Join Our Discord!!!
+> 🛠 Fast Support <br>
+> 📥 Report Bugs <br>
+> 🗒 Chat with our Community!
+<a href="https://discord.gg/bagieta">
+<img src="https://image.jimcdn.com/app/cms/image/transf/none/path/sd0ac3cec7e1354b8/image/i9a5907048ddc7a76/version/1505635416/image.png" width="50%" height="auto">
+</a>
+
+---
 
 ###### Script Futures:
 - Easy to use

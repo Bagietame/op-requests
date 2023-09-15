@@ -21,7 +21,7 @@
 
 ###### Script Showcase:
 <br>
-<a href="https://store.otherplanet.dev"><h1 align="center"><img src="https://i.imgur.com/UDD3g5T.png" width="95%" height="auto"></h1></a>
+<a href="https://www.youtube.com/watch?v=Vqwpo2VABjU"><h1 align="center"><img src="https://i.ytimg.com/vi/Vqwpo2VABjU/maxresdefault.jpg" width="95%" height="auto"></h1></a>
 
 ###### Script Usage:
 

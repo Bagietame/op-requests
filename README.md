@@ -21,6 +21,7 @@
 
 ###### Script Showcase:
 <br>
+<p align="center">https://www.youtube.com/watch?v=Vqwpo2VABjU</p>
 <a href="https://www.youtube.com/watch?v=Vqwpo2VABjU"><h1 align="center"><img src="https://i.ytimg.com/vi/Vqwpo2VABjU/maxresdefault.jpg" width="95%" height="auto"></h1></a>
 
 ###### Script Usage:

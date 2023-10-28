@@ -27,6 +27,10 @@ https://discord.gg/otherplanet
 <p align="center">https://www.youtube.com/watch?v=Vqwpo2VABjU</p>
 <a href="https://www.youtube.com/watch?v=Vqwpo2VABjU"><h1 align="center"><img src="https://i.ytimg.com/vi/Vqwpo2VABjU/maxresdefault.jpg" width="95%" height="auto"></h1></a>
 
+###### Script Installation:
+
+> Check: [docs.otherplanet.dev / Official Documentation Page](https://docs.otherplanet.dev/)
+
 ###### Script Usage:
 
 > **⚠ IMPORTANT: Executed from sender side.**  
@@ -43,8 +47,6 @@ exports["op-requests"]:sendRequest(playerId, head, description,{
 })
 ```
 
-> Check: [docs.otherplanet.dev / Official Documentation Page](https://docs.otherplanet.dev/)
-> Find More on our website: [www.otherplanet.dev](https://otherplanet.dev/) and don’t forgot to join discord community!
 ---
 
 ###### Dependencies: 

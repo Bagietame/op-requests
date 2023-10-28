@@ -68,15 +68,3 @@ AddEventHandler('op-requests:runFuncs', function (r)
         rData.status = 2
     end
 end)
-
-RegisterCommand('testrequest', function()
-    local playerId = GetPlayerServerId(PlayerId())
-    exports["op-requests"]:sendRequest(playerId, 'Test', 'Bagno',{
-        onReject = function()
-          print('odrzucil chuj')
-        end, 
-        onAccept = function()
-            print('zaakceptowal git')
-        end
-    })
-end, false)

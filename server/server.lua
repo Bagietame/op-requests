@@ -39,7 +39,7 @@ AddEventHandler('op-requests:sendRequestToPlayer', function(rData)
         local receivernames = getName(xReceiver)
         rData.towhonames = receivernames
 
-        local _player = getSource(xPlayer)
+        local _player = getSource(xReceiver)
  
         TriggerClientEvent("op-requests:showRequest", _player, rData)
         
